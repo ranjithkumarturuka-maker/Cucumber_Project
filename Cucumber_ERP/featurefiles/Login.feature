@@ -8,5 +8,5 @@ Given i launch url "http://webapp.qedgetech.com/" in a browser
 When i enter user  as "admin" in username
 And i enter pass as "master" in password
 And i click login button
-Then i verify dashboard text in home page
+Then i verify dashboard in Stock Accounting Home
 When i close browser
